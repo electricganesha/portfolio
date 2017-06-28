@@ -1,0 +1,180 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Christian Marques &#8226; 2016</title>
+  <meta name="description" content="Christian Marques . 2016">
+  <meta name="author" content="Christian Marques">
+  <link href='https://fonts.googleapis.com/css?family=Merriweather' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/vis.css">
+  <link rel="stylesheet" href="css/styles.css?v=1.0">
+  <link rel="stylesheet" href="css/responsive.css">
+  <link rel="stylesheet" href="css/pace.css">
+  <link rel="stylesheet" href="css/jqcloud.min.css">
+  <script src="js/pace.min.js"></script>
+  <script src="js/jquery.min.js"></script>
+  <script src="js/vis.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/jqcloud.min.js"></script>
+</head>
+<body>
+  <div class="container" id="containerNav">
+    <div id="custom-bootstrap-menu" class="navbar navbar-default navbar-fixed-top" role="navigation">
+      <div class="navbar-header">
+        <button style="background-color:transparent;" type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse-1">
+        <span class="icon-bar" style="background-color: black;"></span>
+        <span class="icon-bar" style="background-color: black;"></span>
+        <span class="icon-bar" style="background-color: black;"></span>
+      </button>
+        <div class="navbar-brand" style="padding-left:0px;"><img width="24" height="24" src="img/hexagram55.png"></img></div>
+      </div>
+      <div class="collapse navbar-collapse navbar-menubuilder dropdown" id="navbar-collapse-1">
+        <ul class="nav navbar-nav navbar-right" id="navigation">
+          <li><a href="index.html" id="homeLink">Home</a>
+          </li>
+          <li><a href="engineering.html" id="engineeringLink">Work</a>
+          </li>
+          <li><a href="music.html" id="musicLink">Music</a>
+          </li>
+          <li><a href="photography.html" id="photographyLink">Photography</a>
+          </li>
+          <li><a href="poetry.html" id="poetryLink">Poetry</a>
+          </li>
+          <li><a class="activeNavLink" href="about.html" id="aboutLink">About Me</a>
+          </li>
+          <li><a href="contact.html" id="contactLink">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+<div class="container" id="containerMain" >
+  <div class="row" style="margin:0px; margin-top:4vh; ">
+    <div id="cloudInstructionsDiv"><small id="cloudInstructions">this cloud represents my interests - click here to shuffle the cloud </small><img id="shuffleButton" src="img/shuffle.png" style="cursor:pointer;" onclick="shuffleCloud();"></img></div>
+    <div id="cloud" class="demo jqcloud" style="height:75vh; width:100%;">
+    </div>
+      <script>
+        var words = [
+          {text: "Christian Marques / electricganesha", weight: 13},
+          {text: "Radical Traveller", weight: 8},
+          {text: "Software Engineer", weight: 8},
+          {text: "Aspiring Poet", weight: 8},
+          {text: "Amateur Musician", weight: 8},
+          {text: "Wannabe Photographer", weight: 8},
+          {text: "Fervorous Dreamer", weight: 8},
+          {text: "(UK)", weight: 9},
+          {text: "(PT)", weight: 9},
+          {text: "Tom Waits", weight: 4},
+          {text: "J.S. Bach", weight: 4},
+          {text: "L.V. Beethoven", weight: 4},
+          {text: "Radiohead", weight: 4},
+          {text: "The Bad Plus", weight: 4},
+          {text: "Leonard Cohen", weight: 4},
+          {text: "Sufjan Stevens", weight: 4},
+          {text: "Lhasa de Sela", weight: 4},
+          {text: "Miles Davis", weight: 4},
+          {text: "Nick Drake", weight: 4},
+          {text: "The Beatles", weight: 4},
+          {text: "John Coltrane", weight: 4},
+          {text: "John Zorn", weight: 4},
+          {text: "The Magnetic Fields", weight: 4},
+          {text: "Godspeed You! Black Emperor", weight: 4},
+          {text: "Jacqueline Du Pré", weight: 4},
+          {text: "Fleet Foxes", weight: 4},
+          {text: "Arcade Fire", weight: 4},
+          {text: "Flying Lotus", weight: 4},
+          {text: "Aphex Twin", weight: 4},
+          {text: "The Flaming Lips", weight: 4},
+          {text: "Portishead", weight: 4},
+          {text: "Stanley Kubrick", weight: 3},
+          {text: "Francis Ford-Coppola", weight: 3},
+          {text: "Lars Von Trier", weight: 3},
+          {text: "Michael Hanneke", weight: 3},
+          {text: "Hayao Myiazaki", weight: 3},
+          {text: "Andrei Tarkovsky", weight: 3},
+          {text: "Alejandro Jodorowsky", weight: 3},
+          {text: "Krzysztof Kieslowski", weight: 3},
+          {text: "Terrence Malick", weight: 3},
+          {text: "Peter Greenaway", weight: 3},
+          {text: "David Lynch", weight: 3},
+          {text: "Aldous Huxley", weight: 2},
+          {text: "George Orwell", weight: 2},
+          {text: "Henry David Thoreau", weight: 2},
+          {text: "Herman Hesse", weight: 2},
+          {text: "H.P. Lovecraft", weight: 2},
+          {text: "Fernando Pessoa", weight: 2},
+          {text: "Jorge Luís Borges", weight: 2},
+          {text: "Franz Kafka", weight: 2},
+          {text: "Albert Camus", weight: 2},
+          {text: "José Saramago", weight: 2},
+          {text: "J.R.R. Tolkien", weight: 2},
+          {text: "Pablo Neruda", weight: 2},
+          {text: "Alan Moore", weight: 2},
+          {text: "Miguel Torga", weight: 2},
+          {text: "Haruki Murakami", weight: 2},
+          {text: "Italo Calvino", weight: 2},
+          {text: "Kurt Vonnegut", weight: 2},
+          {text: "Vladimir Nabokov", weight: 2},
+          {text: "Computer Science", weight: 2},
+          {text: "Information Systems", weight: 2},
+          {text: "Computer Graphics", weight: 2},
+          {text: "Artificial Intelligence", weight: 2},
+          {text: "Human-Machine Interaction", weight: 2},
+          {text: "Database Technologies", weight: 2},
+          {text: "Video Game Design", weight: 2},
+          {text: "Sound Analysis and Processing", weight: 2},
+          {text: "Electro-Acoustic Sound", weight: 2},
+          {text: "Sensor-based Systems", weight: 2},
+          {text: "Neuroscience", weight: 2},
+          {text: "Theoretical Physics", weight: 2},
+          {text: "Cryptocurrencies", weight: 2},
+          {text: "Blockchain", weight: 2},
+          {text: "Digital Security", weight: 2}
+        ];
+
+        shuffleCloud();
+
+        function shuffleCloud(){
+
+          $('#cloud').jQCloud('destroy');
+
+          $('#cloud').jQCloud(words, {
+            classPattern: null,
+            colors: ["#000000", "#FF69B4", "#040404", "#040404", "#FF69B4", "#FF69B4", "#535353"],
+            fontSize: {
+              from: 0.03,
+              to: 0.01
+            },
+            center:{x:0.5,y:0.5}
+          });
+        }
+
+        $('#shuffleButton').mouseover(function()
+        {
+          $('#shuffleButton').attr("src","img/shuffle-pink.png")
+        });
+
+        $('#shuffleButton').mouseout(function()
+        {
+          $('#shuffleButton').attr("src","img/shuffle.png")
+        });
+      </script>
+  </div>
+</div>
+<div class="container" id="containerFooter">
+  <div id="footerRight">
+    <footer class="footer">
+      <div style="position:relative;">
+        <p class="text-muted" style="margin-bottom:0px;">designed and developed by christian marques &#8226; 2016 &copy; all rights reserved &#8226; illustrations from <a href="http://thegraphicsfairy.com/">The Graphic Fairy</a> &#8226; using <a href="http://getbootstrap.com/">Bootstrap</a>, <a href="https://jquery.com/">JQuery</a>, <a href="http://kenwheeler.github.io/slick/">Slick</a>, <a href="http://kenwheeler.github.io/slick/">Formspree</a>, <a href="https://github.com/lucaong/jQCloud">JQCloud</a> and <a href="http://github.hubspot.com/pace/docs/welcome/">Pace</a></p>
+      </div>
+      <div id="languageChoose">
+        <a href="../en/about.html">en</a> / <a href="../pt/about.html">pt</a>
+      </div>
+    </footer>
+  </div>
+</div>
+</body>
+</html>

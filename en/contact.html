@@ -1,0 +1,108 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Christian Marques &#8226; 2016</title>
+  <meta name="description" content="Christian Marques . 2016">
+  <meta name="author" content="Christian Marques">
+  <link href='https://fonts.googleapis.com/css?family=Merriweather' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/vis.css">
+  <link rel="stylesheet" href="css/styles.css?v=1.0">
+  <link rel="stylesheet" href="css/responsive.css">
+  <link rel="stylesheet" href="css/pace.css">
+  <script src="js/pace.min.js"></script>
+  <script src="js/jquery.min.js"></script>
+  <script src="js/vis.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+</head>
+<body>
+  <div class="container" id="containerNav">
+    <div id="custom-bootstrap-menu" class="navbar navbar-default navbar-fixed-top" role="navigation">
+      <div class="navbar-header">
+        <button style="background-color:transparent;" type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse-1">
+        <span class="icon-bar" style="background-color: black;"></span>
+        <span class="icon-bar" style="background-color: black;"></span>
+        <span class="icon-bar" style="background-color: black;"></span>
+      </button>
+        <div class="navbar-brand" style="padding-left:0px;"><img width="24" height="24" src="img/hexagram55.png"></img></div>
+      </div>
+      <div class="collapse navbar-collapse navbar-menubuilder dropdown" id="navbar-collapse-1">
+        <ul class="nav navbar-nav navbar-right" id="navigation">
+          <li><a href="index.html" id="homeLink">Home</a>
+          </li>
+          <li><a href="engineering.html" id="engineeringLink">Work</a>
+          </li>
+          <li><a href="music.html" id="musicLink">Music</a>
+          </li>
+          <li><a href="photography.html" id="photographyLink">Photography</a>
+          </li>
+          <li><a href="poetry.html" id="poetryLink">Poetry</a>
+          </li>
+          <li><a href="about.html" id="aboutLink">About Me</a>
+          </li>
+          <li><a class="activeNavLink" href="contact.html" id="contactLink">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+<div class="container" id="containerMain" >
+  <div class="row" id="contactContainer">
+        <div class="form__container" style=" width:50%; ">
+        <p style="padding-bottom:3vh; text-align:center; font-weight:bold;"> Hello! Please feel free to contact me for job opportunities, freelance projects, any sort of collaboration and even if you just want to drop a quick hello!</p>
+        <form id="formspreeForm" action="//formspree.io/" role="form" method="POST" autocomplete="on" style="position:relative; width:100%;">
+          <script>
+            $("#formspreeForm").attr("action", formSpreeVariable);
+          </script>
+          <div class="form-group">
+            <label for="name">Name:</label>
+            <input type="text" name="name" class="form-control form-input" placeholder="Please type in your full name." required>
+          </div>
+
+          <div class="form-group">
+            <label for="_replyto">E-Mail:</label>
+            <input type="email" name="_replyto" class="form-control form-input" placeholder="Please type in your E-mail." required>
+          </div>
+
+          <div class="form-group">
+            <label for="message">Subject:</label>
+            <textarea id="message" name="message" class="form-control" rows="4" width="100%" placeholder="Please type in your message. I will read it as soon as possible and get back to you!" required></textarea>
+          </div>
+
+          <div style="width:50%; margin:auto; text-align:center;">
+            <input id="contactSubmitButton" type="image" src="img/send.png" alt="Submit" />
+            <input type="hidden" name="_subject" value="New submission!" />
+          </div>
+        </form>
+      </div>
+  </div>
+</div>
+</div>
+<script>
+  $('#contactSubmitButton').mouseover(function()
+  {
+    $('#contactSubmitButton').attr('src','img/send-pink.png');
+  });
+
+  $('#contactSubmitButton').mouseout(function()
+  {
+    $('#contactSubmitButton').attr('src','img/send.png');
+  });
+</script>
+<div class="container" id="containerFooter">
+  <div id="footerRight">
+    <footer class="footer">
+      <div style="position:relative;">
+        <p class="text-muted" style="margin-bottom:0px;">designed and developed by christian marques &#8226; 2016 &copy; all rights reserved &#8226; illustrations from <a href="http://thegraphicsfairy.com/">The Graphic Fairy</a> &#8226; using <a href="http://getbootstrap.com/">Bootstrap</a>, <a href="https://jquery.com/">JQuery</a>, <a href="http://kenwheeler.github.io/slick/">Slick</a>, <a href="http://kenwheeler.github.io/slick/">Formspree</a>, <a href="https://github.com/lucaong/jQCloud">JQCloud</a> and <a href="http://github.hubspot.com/pace/docs/welcome/">Pace</a></p>
+      </div>
+      <div id="languageChoose">
+        <a href="../en/contact.html">en</a> / <a href="../pt/contact.html">pt</a>
+      </div>
+    </footer>
+  </div>
+</div>
+</body>
+</html>

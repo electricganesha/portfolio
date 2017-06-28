@@ -1,0 +1,101 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Christian Marques &#8226; 2016</title>
+  <meta name="description" content="Christian Marques . 2016">
+  <meta name="author" content="Christian Marques">
+  <link href='https://fonts.googleapis.com/css?family=Merriweather' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/vis.css">
+  <link rel="stylesheet" href="css/styles.css?v=1.0">
+  <link rel="stylesheet" href="css/responsive.css">
+  <link rel="stylesheet" href="css/pace.css">
+  <script src="js/pace.min.js"></script>
+  <script src="js/jquery.min.js"></script>
+  <script src="js/vis.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+</head>
+<body>
+
+  <div class="container" id="containerNav">
+    <div id="custom-bootstrap-menu" class="navbar navbar-default navbar-fixed-top" role="navigation">
+      <div class="navbar-header">
+        <button style="background-color:transparent;" type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse-1">
+        <span class="icon-bar" style="background-color: black;"></span>
+        <span class="icon-bar" style="background-color: black;"></span>
+        <span class="icon-bar" style="background-color: black;"></span>
+      </button>
+        <div class="navbar-brand" style="padding-left:0px;"><img width="24" height="24" src="img/hexagram55.png"></img></div>
+      </div>
+      <div class="collapse navbar-collapse navbar-menubuilder dropdown" id="navbar-collapse-1">
+        <ul class="nav navbar-nav navbar-right" id="navigation">
+          <li><a class="activeNavLink" href="index.html" id="homeLink">Home</a>
+          </li>
+          <li><a href="engineering.html" id="engineeringLink">Trabalho</a>
+          </li>
+          <li><a href="music.html" id="musicLink">Música</a>
+          </li>
+          <li><a href="photography.html" id="photographyLink">Fotografia</a>
+          </li>
+          <li><a href="poetry.html" id="poetryLink">Poesia</a>
+          </li>
+          <li><a href="about.html" id="aboutLink">Sobre Mim</a>
+          </li>
+          <li><a href="contact.html" id="contactLink">Contacto</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <div id="visualization" style="display:none;"></div>
+  <div class="container" id="containerMain">
+    <div class="row" id="mainRow">
+      <div class="col-md-6 col-sm-6 col-xs-6" id="indexColumn1">
+        <div id="leftContainer">
+          <div id="title"> Christian Marques &#8226; 2016 </div>
+          <div id="introText"> Olá. Sou um <b><i>engenheiro de software</i></b> a tempo inteiro, <b><i> músico</i></b> amador, aspirante a <b><i> poeta </i></b> e <b> <i>sonhador</i></b> fervoroso, estando neste momento focado em <a href="https://en.wikipedia.org/wiki/Solution_stack#Full-stack_developer"> desenvolvimento web full-stack</a>, <a href="https://pt.wikipedia.org/wiki/WebGL"> WebGL</a> / <a href="https://pt.wikipedia.org/wiki/Computa%C3%A7%C3%A3o_gr%C3%A1fica"> computação gráfica</a> e soluções de <a href="https://pt.wikipedia.org/wiki/Realidade_virtual"> realidade virtual</a>. Ao longo da minha carreira profissional, contribuí para a <a href="https://www.researchgate.net/profile/Christian_Marques">comunidade científica</a>, desenvolvi um <a href="https://vimeo.com/23661651"> vídeo-jogo</a>, trabalhei para <a href="http://www.amadeus.com/">corporações multi-nacionais</a>, criei uma <a href="https://wolfboymusic.bandcamp.com">banda de folk independente</a>, fiz trabalho de voluntariado para uma <a href="http://www.volnepal.np.org">ONG</a> depois de ter viajado a rota terrestre entre a Grécia e o Nepal, escrevi um <a href="https://www.facebook.com/wanderingpoem/?fref=ts">livro de poesia</a> e co-fundei uma <a href="http://www.pushinteractive.xyz">start-up tecnológica</a>.<br>  </div>
+          <div id="footerLeft">
+            <ul>
+              <li><a title="Curriculum Vitæ" id="cvLink" href="cv.pdf"><img id="cvImg" alt="curriculum vitæ" src="img/cv.png"></a></li>
+              <li><a title="LinkedIn" id="linkedinLink" href="https://www.linkedin.com/in/chmarques"><img id="linkedinImg" alt="linkedin" src="img/linkedin.png"></a></li>
+              <li><a title="GitHub" id="gitHubLink" href="https://github.com/electricganesha"><img id="gitHubImg" alt="github" src="img/github.png"></a></li>
+              <li><a title="Facebook" id="facebookLink" href="https://www.facebook.com/profile.php?id=100004809187864"><img id="facebookImg" alt="facebook" src="img/facebook.png"></a></li>
+              <li><a title="Youtube" id="youtubeLink" href="https://www.youtube.com/user/electricganesha"><img id="youtubeImg" alt="youtube" src="img/youtube.png"></a></li>
+              <li><a title="Soundcloud" id="soundcloudLink" href="https://soundcloud.com/christianmarques"><img id="soundcloudImg" alt="soundcloud" src="img/soundcloud.png"></a></li>
+              <li><a title="Bandcamp" id="bandcampLink" href="https://wolfboymusic.bandcamp.com/"><img id="bandcampImg" alt="bandcamp" src="img/bandcamp.png"></a></li>
+              <li><a title="Instagram" id="instagramLink" href="https://www.instagram.com/electricganesha/"><img id="instagramImg" alt="instagram" src="img/instagram.png"></a></li>
+            </ul>
+            <script src="js/linkInteraction.js"></script>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6 col-sm-6 col-xs-6" id="indexColumn2">
+        <img id="indexImage" class="img-responsive" src="img/composedPic.png" alt="main image">
+        <div class="quote" id="homeQuote"><p style="text-align:right;">“Quantas vezes me deitei, sob a chuva <br> em estranhos telhados, a pensar <br> na minha casa.”</p> <p style="text-align:right;"> ― William Faulkner</p></div>
+        <div class="quote" id="engineeringQuote"><p style="text-align:right;">“A dificuldade não reside tanto no <br> desenvolvimento de novas idéias, mas sim <br> na capacidade para fugir das velhas.”</p> <p style="text-align:right;"> ― John Maynard Keynes</p></div>
+        <div class="quote" id="musicQuote"><p style="text-align:right;">“A vida sem música, seria um erro.”</p> <p style="text-align:right;"> ― Friedrich Nietzche</p></div>
+        <div class="quote" id="photographyQuote"><p style="text-align:right;">“Na vastidão da escuridão, somos nós que<br> devemos fornecer a nossa própria luz.”</p> <p style="text-align:right;"> ― Stanley Kubrick</p></div>
+        <div class="quote" id="poetryQuote"><p style="text-align:right;">“A arte da arte, a glória da expressão e<br> a luminosidade da luz das letras, <br>é a simplicidade.”</p> <p style="text-align:right;"> ― Walt Whitman</p></div>
+        <div class="quote" id="aboutQuote"><p style="text-align:right;">“Ontem eu era esperto, queria mudar o mundo.  <br> Hoje eu sou sábio, e mudo-me  <br>a mim mesmo.”</p> <p style="text-align:right;"> ― Jalal ad-Din Muhammad Rumi</p></div>
+        <div class="quote" id="contactQuote"><p style="text-align:right;">“O encontro de duas personalidades é como <br> o contacto de duas substâncias químicas. <br>Se existir uma reacção, ambas <br> são transformadas.”</p> <p style="text-align:right;"> ― Carl Jung</p></div>
+      </div>
+    </div>
+  </div>
+  <div class="container" id="containerFooter">
+    <div id="footerRight">
+      <footer class="footer">
+        <div style="position:relative;">
+          <p class="text-muted" style="margin-bottom:0px;">desenhado e desenvolvido por christian marques &#8226; 2016 &copy; todos os direitos reservados &#8226; ilustrações de <a href="http://thegraphicsfairy.com/">The Graphic Fairy</a> &#8226; utilizando <a href="http://getbootstrap.com/">Bootstrap</a>, <a href="https://jquery.com/">JQuery</a>, <a href="http://kenwheeler.github.io/slick/">Slick</a>, <a href="http://kenwheeler.github.io/slick/">Formspree</a>, <a href="https://github.com/lucaong/jQCloud">JQCloud.</a>e <a href="http://github.hubspot.com/pace/docs/welcome/">Pace</a></p>
+        </div>
+        <div id="languageChoose">
+          <a href="../en/index.html">en</a> / <a href="../pt/index.html">pt</a>
+        </div>
+      </footer>
+    </div>
+  </div>
+</body>
+</html>

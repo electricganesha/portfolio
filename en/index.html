@@ -1,0 +1,101 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Christian Marques &#8226; 2016</title>
+  <meta name="description" content="Christian Marques . 2016">
+  <meta name="author" content="Christian Marques">
+  <link href='https://fonts.googleapis.com/css?family=Merriweather' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/vis.css">
+  <link rel="stylesheet" href="css/styles.css?v=1.0">
+  <link rel="stylesheet" href="css/responsive.css">
+  <link rel="stylesheet" href="css/pace.css">
+  <script src="js/pace.min.js"></script>
+  <script src="js/jquery.min.js"></script>
+  <script src="js/vis.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+</head>
+<body>
+
+  <div class="container" id="containerNav">
+    <div id="custom-bootstrap-menu" class="navbar navbar-default navbar-fixed-top" role="navigation">
+      <div class="navbar-header">
+        <button style="background-color:transparent;" type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse-1">
+        <span class="icon-bar" style="background-color: black;"></span>
+        <span class="icon-bar" style="background-color: black;"></span>
+        <span class="icon-bar" style="background-color: black;"></span>
+      </button>
+        <div class="navbar-brand" style="padding-left:0px;"><img width="24" height="24" src="img/hexagram55.png"></img></div>
+      </div>
+      <div class="collapse navbar-collapse navbar-menubuilder dropdown" id="navbar-collapse-1">
+        <ul class="nav navbar-nav navbar-right" id="navigation">
+          <li><a class="activeNavLink" href="index.html" id="homeLink">Home</a>
+          </li>
+          <li><a href="engineering.html" id="engineeringLink">Work</a>
+          </li>
+          <li><a href="music.html" id="musicLink">Music</a>
+          </li>
+          <li><a href="photography.html" id="photographyLink">Photography</a>
+          </li>
+          <li><a href="poetry.html" id="poetryLink">Poetry</a>
+          </li>
+          <li><a href="about.html" id="aboutLink">About Me</a>
+          </li>
+          <li><a href="contact.html" id="contactLink">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <div id="visualization" style="display:none;"></div>
+  <div class="container" id="containerMain">
+    <div class="row" id="mainRow">
+      <div class="col-md-6 col-sm-6 col-xs-6" id="indexColumn1">
+        <div id="leftContainer">
+          <div id="title"> Christian Marques &#8226; 2016 </div>
+          <div id="introText"> Hi. I am a full-time <b> <i>software engineer</i></b>, amateur <b><i> musician</i></b>, aspiring <b><i> poet </i></b> and a fervorous <b> <i>dreamer</i></b>, currently focusing on <a href="https://en.wikipedia.org/wiki/Solution_stack#Full-stack_developer"> full-stack web development</a>, <a href="https://en.wikipedia.org/wiki/WebGL"> WebGL</a> / <a href="https://en.wikipedia.org/wiki/Computer_graphics"> computer graphics</a> and <a href="https://en.wikipedia.org/wiki/Virtual_reality"> virtual reality</a> solutions. During my professional career I have contributed to the <a href="https://www.researchgate.net/profile/Christian_Marques">scientific community</a>, developed a <a href="https://vimeo.com/23661651"> video-game</a>, worked for <a href="http://www.amadeus.com/">multinational corporations</a>, created an <a href="https://wolfboymusic.bandcamp.com">indie-folk band</a>, volunteered for an <a href="http://www.volnepal.np.org">NGO</a> after having travelled by land between Greece and Nepal, written a <a href="https://www.facebook.com/wanderingpoem/?fref=ts">poetry book</a> and co-founded a <a href="http://www.pushinteractive.xyz">tech start-up</a>.<br>  </div>
+          <div id="footerLeft">
+            <ul>
+              <li><a title="Curriculum Vitæ" id="cvLink" href="cv.pdf"><img id="cvImg" alt="curriculum vitæ" src="img/cv.png"></a></li>
+              <li><a title="LinkedIn" id="linkedinLink" href="https://www.linkedin.com/in/chmarques"><img id="linkedinImg" alt="linkedin" src="img/linkedin.png"></a></li>
+              <li><a title="GitHub" id="gitHubLink" href="https://github.com/electricganesha"><img id="gitHubImg" alt="github" src="img/github.png"></a></li>
+              <li><a title="Facebook" id="facebookLink" href="https://www.facebook.com/profile.php?id=100004809187864"><img id="facebookImg" alt="facebook" src="img/facebook.png"></a></li>
+              <li><a title="Youtube" id="youtubeLink" href="https://www.youtube.com/user/electricganesha"><img id="youtubeImg" alt="youtube" src="img/youtube.png"></a></li>
+              <li><a title="Soundcloud" id="soundcloudLink" href="https://soundcloud.com/christianmarques"><img id="soundcloudImg" alt="soundcloud" src="img/soundcloud.png"></a></li>
+              <li><a title="Bandcamp" id="bandcampLink" href="https://wolfboymusic.bandcamp.com/"><img id="bandcampImg" alt="bandcamp" src="img/bandcamp.png"></a></li>
+              <li><a title="Instagram" id="instagramLink" href="https://www.instagram.com/electricganesha/"><img id="instagramImg" alt="instagram" src="img/instagram.png"></a></li>
+            </ul>
+            <script src="js/linkInteraction.js"></script>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6 col-sm-6 col-xs-6" id="indexColumn2">
+        <img id="indexImage" class="img-responsive" src="img/composedPic.png" alt="main image">
+        <div class="quote" id="homeQuote"><p style="text-align:right;">“How often have I lain beneath rain <br> on a strange roof, thinking <br> of home.”</p> <p style="text-align:right;"> ― William Faulkner</p></div>
+        <div class="quote" id="engineeringQuote"><p style="text-align:right;">“The difficulty lies not so much in <br> developing new ideas, as in <br> escaping from old ones.”</p> <p style="text-align:right;"> ― John Maynard Keynes</p></div>
+        <div class="quote" id="musicQuote"><p style="text-align:right;">“Life without music, would be a mistake.”</p> <p style="text-align:right;"> ― Friedrich Nietzche</p></div>
+        <div class="quote" id="photographyQuote"><p style="text-align:right;">“However vast the darkness, we <br>must supply our own light.”</p> <p style="text-align:right;"> ― Stanley Kubrick</p></div>
+        <div class="quote" id="poetryQuote"><p style="text-align:right;">“The art of art, the glory of expression and<br> the sunshine of the light of letters, <br>is simplicity.”</p> <p style="text-align:right;"> ― Walt Whitman</p></div>
+        <div class="quote" id="aboutQuote"><p style="text-align:right;">“Yesterday I was clever, so I wanted to <br> change the world. Today I am wise, <br>so I am changing myself.”</p> <p style="text-align:right;"> ― Jalal ad-Din Muhammad Rumi</p></div>
+        <div class="quote" id="contactQuote"><p style="text-align:right;">“The meeting of two personalities is like the <br> contact of two chemical substances. <br>If there is any reaction, both <br> are transformed.”</p> <p style="text-align:right;"> ― Carl Jung</p></div>
+      </div>
+    </div>
+  </div>
+  <div class="container" id="containerFooter">
+    <div id="footerRight">
+      <footer class="footer">
+        <div style="position:relative;">
+          <p class="text-muted" style="margin-bottom:0px;">designed and developed by christian marques &#8226; 2016 &copy; all rights reserved &#8226; illustrations from <a href="http://thegraphicsfairy.com/">The Graphic Fairy</a> &#8226; using <a href="http://getbootstrap.com/">Bootstrap</a>, <a href="https://jquery.com/">JQuery</a>, <a href="http://kenwheeler.github.io/slick/">Slick</a>, <a href="http://kenwheeler.github.io/slick/">Formspree</a>, <a href="https://github.com/lucaong/jQCloud">JQCloud</a> and <a href="http://github.hubspot.com/pace/docs/welcome/">Pace</a></p>
+        </div>
+        <div id="languageChoose">
+          <a href="../en/index.html">en</a> / <a href="../pt/index.html">pt</a>
+        </div>
+      </footer>
+    </div>
+  </div>
+</body>
+</html>

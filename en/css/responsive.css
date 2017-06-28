@@ -1,0 +1,1273 @@
+@media only screen and (min-device-width: 1px) and (max-device-width: 320px)
+{
+
+  body
+  {
+    overflow-y: scroll !important;
+  }
+
+  #navigation
+  {
+    margin:0px;
+    background-color:rgba(0,0,0,0.9);
+    float:right;
+    width:100px;
+    border-radius:25px;
+    color:white;
+  }
+
+  .navbar-nav>li>a
+  {
+    text-align:center !important;
+    padding:5px !important;
+    padding-top:10px !important;
+    padding-bottom:10px !important;
+    border-bottom:1px solid white;
+    color:white !important;
+  }
+
+  .navbar-nav>li>a .activeNavLink
+  {
+    color:#FF1D8E !important;
+  }
+
+  #custom-bootstrap-menu
+  {
+    border-bottom:0px;
+  }
+
+  #mainRow
+  {
+    display:block !important;
+  }
+
+  #leftContainer
+  {
+    width:65% !important;
+    position:relative !important;
+    display:block;
+    margin:auto !important;
+    top: 0% !important; left: 0% !important;
+    transform: translate(0%,0%) !important;
+  }
+
+  #containerNav
+  {
+    width:320px !important;
+    height:60px !important;
+    padding:0px;
+    margin-bottom:10px;
+  }
+
+  #containerMain
+  {
+    height:750px !important;
+    width:320px !important;;
+    padding:0px;
+  }
+
+  #containerFooter
+  {
+    width:320px !important;;
+    height:120px;
+    padding:0px;
+  }
+
+  #indexColumn1
+  {
+    height:450px !important;
+    width:100%;
+    display:block;
+  }
+
+  #indexColumn2
+  {
+    display:block;
+    width:100%;
+    height:300px !important;
+  }
+
+  #indexImage
+  {
+    max-width:90vw;
+    margin-right:0px;
+    float:none;
+    position:relative;
+    top: 0% !important; left: 0% !important;
+    transform: translate(0%,0%) !important;
+  }
+
+  .footer {
+    font-family: 'Merriweather', serif;
+    font-size:x-small;
+    position:relative;
+    width: 100% !important;
+    top:0vh !important;
+    text-align:center !important;
+    /* Set the fixed height of the footer here */
+    height:20px;
+  }
+
+  #footerRight
+  {
+    padding:0px;
+    width:65%;
+    margin:auto;
+  }
+
+  #languageChoose
+  {
+    position:relative !important;
+    float:right;
+    margin-right:-50px;
+  }
+
+  #visRow
+  {
+    padding-top:200px !important;
+  }
+
+  #visInstructionsLeft
+  {
+    font-family:'Merriweather',serif;
+    font-size:6px;
+    font-weight:bold;
+    float:none;
+    text-align:center;
+  }
+
+  #visInstructionsRight
+  {
+    margin-top:10px;
+    font-family:'Merriweather',serif;
+    font-size:8px;
+    font-weight:bold;
+    float:none;
+    text-align:center;
+    color:black;
+  }
+
+  .colMusic
+  {
+    width:100% !important;
+  }
+
+  .musicMenu
+  {
+    font-family: 'Merriweather', serif;
+    list-style-type:none;
+    width:95vw !important;
+    padding-left:0px;
+    margin-left:30px;
+    text-align:center;
+    height:20vh;
+    font-size:12px;
+  }
+
+  .musicMenu li
+  {
+    display:inline-block;
+  }
+
+  .musicMenu a
+  {
+    padding-right:4px;
+    padding-left:4px !important;
+    color:black;
+    text-align:center;
+  }
+
+  .musicMenu a:hover
+  {
+    color:hotpink;
+  }
+
+  #musicImage
+  {
+    margin-top:55px !important;
+  }
+
+  #musicText
+  {
+    width:90vw;
+    margin-left:5%;
+  }
+
+  #musicLinks
+  {
+    width:90vw;
+    margin-left:5%;
+    font-size:10px;
+    margin-bottom:20px;
+  }
+
+  #musicMedia
+  {
+    padding-bottom:20px;
+  }
+
+  .colEngineering
+  {
+    width:100%;
+  }
+
+  #engineeringText
+  {
+    font-family: 'Merriweather',serif;
+    position:absolute;
+    text-align:justify;
+    float:right;
+    display: flex;
+    align-items: center;
+    height: 100%;
+    width:100%;
+    padding:15px;
+  }
+
+  #engineeringImage
+  {
+    position: absolute;
+    text-align:center;
+    vertical-align: middle;
+    display: inline-block;
+    height:100%;
+    display: flex;
+    align-items: center;
+    width:100%;
+    padding:0px;
+  }
+
+  #engineeringImage img
+  {
+    height: 100%;
+    width:auto;
+    display: block;
+    margin: auto;
+    padding:0px;
+  }
+
+  #linksEngineering
+  {
+    text-align:center;
+    color:hotpink;
+    height:50% !important;
+    width:100%;
+    padding:15px;
+    display:inline-block;
+    font-size:large;
+  }
+
+  #linksEngineeringWrapper
+  {
+    margin-top:50px;
+  }
+
+  #linksEngineering a
+  {
+    font-family:'Merriweather',serif;
+    color:hotpink;
+    display:block;
+    font-family: 'Merriweather', serif;
+    margin-bottom:10px;
+  }
+
+  .footerEngineering
+  {
+    margin-top:800px !important;
+  }
+
+  #photoText
+  {
+    font-size:9px;
+    font-family: 'Merriweather', serif;
+    text-align:center;
+    margin-left:0px !important;
+  }
+
+  /* Required to hold the caption, or any closest parent selector to  .slide__caption */
+  .slide {
+    position: relative;
+  }
+
+  .slide__caption {
+    background-color:rgba(0,0,0,0.5);
+    bottom: 0;
+    color:white;
+    font-family:"Merriweather", serif;
+    font-size:8px;
+    font-weight:600;
+    min-height: 20px;
+    text-align:center;
+    left: 20px;
+    position: absolute;
+    width: 90%;
+    z-index: 2;
+  }
+
+  .image
+  {
+    text-align:center;
+  }
+
+  .image img
+  {
+    margin:auto;
+    width:90%;
+  }
+
+  #photoRow
+  {
+    margin-top:50px;
+  }
+
+  #contactLink
+  {
+    border-bottom:none;
+  }
+
+  #greyBack
+  {
+    width:100% !important;
+    height:70vh !important;
+  }
+
+  #poemText
+  {
+    margin-right:0px !important;
+  }
+
+  #poemSubText
+  {
+    padding-left:25px;
+  }
+
+  .poetryMenu
+  {
+    font-family: 'Merriweather', serif;
+    list-style-type:none;
+    width:100%;
+    padding-left:10%;
+    text-align:left;
+  }
+
+  .poetryMenu li
+  {
+    display:inline-block;
+  }
+
+  .poetryMenu a
+  {
+    padding-right:15px;
+    padding-left:15px !important;
+    color:black;
+    text-align:center;
+  }
+
+  .poetryMenu a:hover
+  {
+    color:hotpink;
+  }
+
+  #cloudInstructions
+  {
+    font-size:9px;
+    font-family: 'Merriweather', serif;
+    margin-right:5px;
+  }
+
+  #shuffleButton
+  {
+    margin-right:10px;
+  }
+
+  .form__container
+  {
+    margin-top:35px;
+    width:80% !important;
+  }
+
+  .form__container p
+  {
+    text-align:justify !important;
+  }
+
+  #musicRow
+  {
+    height:auto;
+    width:100%;
+    display: block !important;
+    justify-content: center;
+    align-items: center;
+    margin:0px;
+    margin-top:10px;
+  }
+
+}
+
+@media only screen and (min-device-width: 321px) and (max-device-width: 480px)
+{
+
+  body
+  {
+    overflow-y: scroll !important;
+  }
+
+  #navigation
+  {
+    margin:0px;
+    background-color:rgba(0,0,0,0.9);
+    float:right;
+    width:100px;
+    border-radius:25px;
+    color:white;
+  }
+
+  .navbar-nav>li>a
+  {
+    text-align:center !important;
+    padding:5px !important;
+    padding-top:10px !important;
+    padding-bottom:10px !important;
+    border-bottom:1px solid white;
+    color:white !important;
+  }
+
+  .navbar-nav>li>a .activeNavLink
+  {
+    color:#FF1D8E !important;
+  }
+
+  #custom-bootstrap-menu
+  {
+    border-bottom:0px;
+  }
+
+  #mainRow
+  {
+    display:block !important;
+  }
+
+  #leftContainer
+  {
+    width:65% !important;
+    position:relative !important;
+    display:block;
+    margin:auto !important;
+    top: 0% !important; left: 0% !important;
+    transform: translate(0%,0%) !important;
+  }
+
+  #containerNav
+  {
+    width:360px !important;
+    height:60px !important;
+    padding:0px;
+    margin-bottom:10px;
+  }
+
+  #containerMain
+  {
+    height:750px !important;
+    width:360px !important;;
+    padding:0px;
+  }
+
+  #containerFooter
+  {
+    width:360px !important;;
+    height:120px;
+    padding:0px;
+  }
+
+  #indexColumn1
+  {
+    height:450px !important;
+    width:100%;
+    display:block;
+  }
+
+  #indexColumn2
+  {
+    display:block;
+    width:100%;
+    height:300px !important;
+  }
+
+  #indexImage
+  {
+    max-width:90vw;
+    margin-right:0px;
+    float:none;
+    position:relative;
+    top: 0% !important; left: 0% !important;
+    transform: translate(0%,0%) !important;
+  }
+
+  .footer {
+    font-family: 'Merriweather', serif;
+    font-size:x-small;
+    position:relative;
+    width: 100% !important;
+    top:0vh !important;
+    text-align:center !important;
+    /* Set the fixed height of the footer here */
+    height:20px;
+  }
+
+  #footerRight
+  {
+    padding:0px;
+    width:65%;
+    margin:auto;
+  }
+
+  #languageChoose
+  {
+    position:relative !important;
+    float:right;
+    margin-right:-50px;
+  }
+
+  #visRow
+  {
+    padding-top:200px !important;
+  }
+
+  #visInstructionsLeft
+  {
+    font-family:'Merriweather',serif;
+    font-size:6px;
+    font-weight:bold;
+    float:none;
+    text-align:center;
+  }
+
+  #visInstructionsRight
+  {
+    margin-top:10px;
+    font-family:'Merriweather',serif;
+    font-size:8px;
+    font-weight:bold;
+    float:none;
+    text-align:center;
+    color:black;
+  }
+
+  .colMusic
+  {
+    width:100% !important;
+  }
+
+  .musicMenu
+  {
+    font-family: 'Merriweather', serif;
+    list-style-type:none;
+    width:95vw !important;
+    padding-left:0px;
+    margin-left:30px;
+    text-align:center;
+    height:20vh;
+    font-size:12px;
+  }
+
+  .musicMenu li
+  {
+    display:inline-block;
+  }
+
+  .musicMenu a
+  {
+    padding-right:4px;
+    padding-left:4px !important;
+    color:black;
+    text-align:center;
+  }
+
+  .musicMenu a:hover
+  {
+    color:hotpink;
+  }
+
+  #musicImage
+  {
+    margin-top:55px !important;
+  }
+
+  #musicText
+  {
+    width:90vw;
+    margin-left:5%;
+  }
+
+  #musicLinks
+  {
+    width:90vw;
+    margin-left:5%;
+    font-size:10px;
+    margin-bottom:20px;
+  }
+
+  #musicMedia
+  {
+    padding-bottom:20px;
+  }
+
+  .colEngineering
+  {
+    width:100%;
+  }
+
+  #engineeringText
+  {
+    font-family: 'Merriweather',serif;
+    position:absolute;
+    text-align:justify;
+    float:right;
+    display: flex;
+    align-items: center;
+    height: 100%;
+    width:100%;
+    padding:15px;
+  }
+
+  #engineeringImage
+  {
+    position: absolute;
+    text-align:center;
+    vertical-align: middle;
+    display: inline-block;
+    height:100%;
+    display: flex;
+    align-items: center;
+    width:100%;
+    padding:0px;
+  }
+
+  #engineeringImage img
+  {
+    height: 100%;
+    width:auto;
+    display: block;
+    margin: auto;
+    padding:0px;
+  }
+
+  #linksEngineering
+  {
+    text-align:center;
+    color:hotpink;
+    height:50% !important;
+    width:100%;
+    padding:15px;
+    display:inline-block;
+    font-size:large;
+  }
+
+  #linksEngineeringWrapper
+  {
+    margin-top:50px;
+  }
+
+  #linksEngineering a
+  {
+    font-family:'Merriweather',serif;
+    color:hotpink;
+    display:block;
+    font-family: 'Merriweather', serif;
+    margin-bottom:10px;
+  }
+
+  .footerEngineering
+  {
+    margin-top:800px !important;
+  }
+
+  #photoText
+  {
+    font-size:9px;
+    font-family: 'Merriweather', serif;
+    text-align:center;
+    margin-left:0px !important;
+  }
+
+  /* Required to hold the caption, or any closest parent selector to  .slide__caption */
+  .slide {
+    position: relative;
+  }
+
+  .slide__caption {
+    background-color:rgba(0,0,0,0.5);
+    bottom: 0;
+    color:white;
+    font-family:"Merriweather", serif;
+    font-size:8px;
+    font-weight:600;
+    min-height: 20px;
+    text-align:center;
+    left: 20px;
+    position: absolute;
+    width: 90%;
+    z-index: 2;
+  }
+
+  .image
+  {
+    text-align:center;
+  }
+
+  .image img
+  {
+    margin:auto;
+    width:90%;
+  }
+
+  #photoRow
+  {
+    margin-top:50px;
+  }
+
+  #contactLink
+  {
+    border-bottom:none;
+  }
+
+  #greyBack
+  {
+    width:100% !important;
+    height:70vh !important;
+  }
+
+  #poemText
+  {
+    margin-right:0px !important;
+  }
+
+  #poemSubText
+  {
+    padding-left:25px;
+  }
+
+  .poetryMenu
+  {
+    font-family: 'Merriweather', serif;
+    list-style-type:none;
+    width:100%;
+    padding-left:10%;
+    text-align:left;
+  }
+
+  .poetryMenu li
+  {
+    display:inline-block;
+  }
+
+  .poetryMenu a
+  {
+    padding-right:15px;
+    padding-left:15px !important;
+    color:black;
+    text-align:center;
+  }
+
+  .poetryMenu a:hover
+  {
+    color:hotpink;
+  }
+
+  #cloudInstructions
+  {
+    font-size:9px;
+    font-family: 'Merriweather', serif;
+    margin-right:5px;
+  }
+
+  #shuffleButton
+  {
+    margin-right:10px;
+  }
+
+  .form__container
+  {
+    margin-top:35px;
+    width:80% !important;
+  }
+
+  .form__container p
+  {
+    text-align:justify !important;
+  }
+
+  #musicRow
+  {
+    height:auto;
+    width:100%;
+    display: block !important;
+    justify-content: center;
+    align-items: center;
+    margin:0px;
+    margin-top:10px;
+  }
+
+}
+
+@media only screen and (min-device-width: 481px) and (max-device-width: 640px)
+{
+  body
+  {
+    overflow-y: scroll !important;
+  }
+
+  #navigation
+  {
+    margin:0px;
+    background-color:rgba(0,0,0,0.9);
+    float:right;
+    width:100px;
+    border-radius:25px;
+    color:white;
+  }
+
+  .navbar-nav>li>a
+  {
+    text-align:center !important;
+    padding:5px !important;
+    padding-top:10px !important;
+    padding-bottom:10px !important;
+    border-bottom:1px solid white;
+    color:white !important;
+  }
+
+  .navbar-nav>li>a .activeNavLink
+  {
+    color:#FF1D8E !important;
+  }
+
+  #contactLink
+  {
+    border-bottom:none;
+  }
+
+  #custom-bootstrap-menu
+  {
+    border-bottom:0px;
+  }
+
+  #mainRow
+  {
+    display:block !important;
+  }
+
+  #leftContainer
+  {
+    width:40% !important;
+    position:relative !important;
+    display:block;
+    margin:auto !important;
+    top: 0% !important; left: 0% !important;
+    transform: translate(0%,0%) !important;
+  }
+
+  #containerNav
+  {
+    width:600px !important;
+    height:60px !important;
+    padding:0px;
+    margin-bottom:10px;
+  }
+
+  #containerMain
+  {
+    height:750px !important;
+    width:600px !important;;
+    padding:0px;
+  }
+
+  #containerFooter
+  {
+    width:600px !important;
+    height:120px;
+    padding:20px;
+    margin-bottom:20px;
+    text-align:center;
+  }
+
+  .footer
+  {
+    text-align:center;
+  }
+
+  #indexColumn1
+  {
+    height:450px !important;
+    width:100%;
+    display:block;
+  }
+
+  #indexColumn2
+  {
+    display:block;
+    width:100%;
+    height:450px !important;
+  }
+
+  #indexImage
+  {
+    max-width:90vw;
+    margin-right:0px;
+    margin-top:30px;
+    margin-bottom:30px;
+    float:none;
+    position:relative;
+    top: 0% !important; left: 0% !important;
+    transform: translate(0%,0%) !important;
+  }
+
+  #visRow
+  {
+    padding-top:50px !important;
+  }
+
+  #visInstructionsLeft
+  {
+    font-family:'Merriweather',serif;
+    font-size:6px;
+    font-weight:bold;
+    float:none;
+    text-align:center;
+  }
+
+  #visInstructionsRight
+  {
+    margin-top:10px;
+    font-family:'Merriweather',serif;
+    font-size:8px;
+    font-weight:bold;
+    float:none;
+    text-align:center;
+    color:black;
+  }
+
+  .colMusic
+  {
+    width:100% !important;
+  }
+
+  .musicMenu
+  {
+    font-family: 'Merriweather', serif;
+    list-style-type:none;
+    width:95vw !important;
+    padding-left:0px;
+    margin-left:30px;
+    text-align:center;
+    height:20vh;
+    font-size:12px;
+  }
+
+  .musicMenu li
+  {
+    display:inline-block;
+  }
+
+  .musicMenu a
+  {
+    padding-right:4px;
+    padding-left:4px !important;
+    color:black;
+    text-align:center;
+  }
+
+  .musicMenu a:hover
+  {
+    color:hotpink;
+  }
+
+  #musicImage
+  {
+    margin-top:55px !important;
+  }
+
+  #musicText
+  {
+    width:90vw;
+    margin-left:5%;
+  }
+
+  #musicLinks
+  {
+    width:90vw;
+    margin-left:5%;
+    font-size:10px;
+    margin-bottom:20px;
+  }
+
+  #musicMedia
+  {
+    padding-bottom:20px;
+  }
+
+  .colEngineering
+  {
+    width:100%;
+  }
+
+  .colEngineeringLinks
+  {
+    width:100%;
+    height:auto !important;
+  }
+
+  #engineeringText
+  {
+    font-family: 'Merriweather',serif;
+    position:absolute;
+    text-align:justify;
+    float:right;
+    display: flex;
+    align-items: center;
+    height: 100%;
+    width:100%;
+    padding:15px;
+    vertical-align:top;
+    display:inline;
+  }
+
+  #engineeringImage
+  {
+    position: absolute;
+    text-align:center;
+    vertical-align: middle;
+    display: inline-block;
+    height:100%;
+    display: flex;
+    align-items: center;
+    margin-left:10%;
+    width:80%;
+    padding:0px;
+  }
+
+  #engineeringImage img
+  {
+    height: 80%;
+    width:auto;
+    display: block;
+    margin: auto;
+    padding:0px;
+  }
+
+  #linksEngineering
+  {
+    text-align:center;
+    color:hotpink;
+    height:50% !important;
+    width:100%;
+    padding:15px;
+    display:inline-block;
+    font-size:large;
+  }
+
+  #linksEngineeringWrapper
+  {
+    margin-top:0px;
+  }
+
+  #linksEngineering a
+  {
+    font-family:'Merriweather',serif;
+    color:hotpink;
+    display:block;
+    font-family: 'Merriweather', serif;
+    margin-bottom:10px;
+  }
+
+  .footerEngineering
+  {
+    margin-top:800px !important;
+  }
+
+  .musicMenu
+  {
+    font-family: 'Merriweather', serif;
+    list-style-type:none;
+    width:95vw !important;
+    padding-left:0px;
+    margin-left:20px;
+    text-align:center;
+    height:20vh;
+    font-size:12px;
+  }
+
+  .musicMenu li
+  {
+    display:inline-block;
+  }
+
+  .musicMenu a
+  {
+    padding-right:15px;
+    padding-left:15px !important;
+    color:black;
+    text-align:center;
+  }
+
+  .musicMenu a:hover
+  {
+    color:hotpink;
+  }
+
+  #musicImage
+  {
+    margin-top:55px !important;
+  }
+
+  #musicText
+  {
+    width:90vw;
+    margin-left:5%;
+  }
+
+  #musicLinks
+  {
+    width:90vw;
+    margin-left:5%;
+    font-size:10px;
+    margin-bottom:20px;
+  }
+
+  #musicMedia
+  {
+    padding-bottom:20px;
+  }
+
+  #musicRow
+  {
+    height:auto;
+    width:100%;
+    display: block !important;
+    justify-content: center;
+    align-items: center;
+    margin:0px;
+    margin-top:10px;
+  }
+
+  .colEngineering
+  {
+    width:100%;
+  }
+
+  /* Required to hold the caption, or any closest parent selector to  .slide__caption */
+  .slide {
+    position: relative;
+  }
+
+  .slide__caption {
+    background-color:rgba(0,0,0,0.5);
+    bottom: 0;
+    color:white;
+    font-family:"Merriweather", serif;
+    font-size:12px;
+    font-weight:600;
+    min-height: 40px;
+    text-align:center;
+    left: 32px;
+    position: absolute;
+    width: 90%;
+    z-index: 2;
+  }
+
+  .image
+  {
+    text-align:center;
+  }
+
+  .image img
+  {
+    margin:auto;
+    width:90%;
+  }
+
+  #photoRow
+  {
+    margin-top:50px;
+  }
+
+  #greyBack
+  {
+    width:100% !important;
+    height:80vh !important;
+  }
+
+  #poemText
+  {
+    margin-right:0px !important;
+  }
+
+  #poemSubText
+  {
+    padding-left:25px;
+  }
+
+  .poetryMenu
+  {
+    font-family: 'Merriweather', serif;
+    list-style-type:none;
+    width:100%;
+    padding-left:0px;
+    text-align:left;
+  }
+
+  .poetryMenu li
+  {
+    display:inline-block;
+  }
+
+  .poetryMenu a
+  {
+    padding-right:15px;
+    padding-left:15px !important;
+    color:black;
+    text-align:center;
+  }
+
+  .poetryMenu a:hover
+  {
+    color:hotpink;
+  }
+
+  #cloudInstructions
+  {
+    font-size:9px;
+    font-family: 'Merriweather', serif;
+    margin-right:5px;
+  }
+
+  #shuffleButton
+  {
+    margin-right:10px;
+  }
+
+  .form__container
+  {
+    margin-top:35px;
+    width:80% !important;
+  }
+
+  .form__container p
+  {
+    text-align:justify !important;
+  }
+
+  #cloudInstructionsDiv
+  {
+    text-align:center;
+    float:none;
+  }
+
+  #contactContainer
+  {
+    height:70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}

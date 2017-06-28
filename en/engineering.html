@@ -1,0 +1,538 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Christian Marques &#8226; 2016</title>
+  <meta name="description" content="Christian Marques . 2016">
+  <meta name="author" content="Christian Marques">
+  <link href='https://fonts.googleapis.com/css?family=Merriweather' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/vis.css">
+  <link rel="stylesheet" href="css/styles.css?v=1.0">
+  <link rel="stylesheet" href="css/responsive.css">
+  <link rel="stylesheet" href="css/pace.css">
+  <script src="js/pace.min.js"></script>
+  <script src="js/jquery.min.js"></script>
+  <script src="js/vis.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+</head>
+<body>
+
+  <div class="container" id="containerNav">
+    <div id="custom-bootstrap-menu" class="navbar navbar-default navbar-fixed-top" role="navigation">
+      <div class="navbar-header">
+        <button style="background-color:transparent;" type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse-1">
+        <span class="icon-bar" style="background-color: black;"></span>
+        <span class="icon-bar" style="background-color: black;"></span>
+        <span class="icon-bar" style="background-color: black;"></span>
+      </button>
+        <div class="navbar-brand" style="padding-left:0px;"><img width="24" height="24" src="img/hexagram55.png"></img></div>
+      </div>
+      <div class="collapse navbar-collapse navbar-menubuilder dropdown" id="navbar-collapse-1">
+        <ul class="nav navbar-nav navbar-right" id="navigation">
+          <li><a href="index.html" id="homeLink">Home</a>
+          </li>
+          <li><a class="activeNavLink" href="engineering.html" id="engineeringLink">Work</a>
+          </li>
+          <li><a href="music.html" id="musicLink">Music</a>
+          </li>
+          <li><a href="photography.html" id="photographyLink">Photography</a>
+          </li>
+          <li><a href="poetry.html" id="poetryLink">Poetry</a>
+          </li>
+          <li><a href="about.html" id="aboutLink">About Me</a>
+          </li>
+          <li><a href="contact.html" id="contactLink">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+<div style="height:80vh; display: flex; justify-content: center; align-items: center;">
+<div class="container" id="containerMain" >
+  <div class="row" id="visRow" style="margin-top:10vh; margin:0px;">
+    <div style="position:relative;">
+      <div id="visInstructionsLeft"><p>the following timeline represents my professional career</p></div>
+    </div>
+    <div id="visualization"></div>
+    <div id="visInstructionsRight"><p>drag timeline to browse - click item to see details</p></div>
+  </div>
+  <div class="row" style="height:40vh; margin:0px;">
+    <div id="item1Container" style="display:none; height:45vh;">
+      <div class="col-sm-4 col-md-4 col-xs-4 colEngineering" style="height:100%; padding:0px;">
+        <div id="engineeringImage" class="engImageClass" style="height:100%;">
+          <img class="img-responsive" src="img/FCULLogo.png" style="width: auto;  height: auto;">
+        </div>
+      </div>
+      <div class="col-sm-4 col-md-4 col-xs-4 colEngineeringLinks" style="height:100%; padding:0px;">
+        <div id="linksEngineering" class="engLinkClass">
+          <div id="linksEngineeringWrapper">
+            <a href="https://ciencias.ulisboa.pt/">Faculty of Sciences of the University of Lisbon</a>
+            <a href="https://ciencias.ulisboa.pt/pt/di/">FCUL Informatics Department</a>
+            <a href="bscDiploma.pdf">BSc Diploma</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-4 col-md-4 col-xs-4 colEngineering"style="height:100%; padding:0px;">
+        <div id="engineeringText" class="engTextClass">
+          <p> I attended the degree of <b><u>Computer Science</u></b> at the Faculty of Sciences of the University of Lisbon, and graduated from this distinguished Portuguese institution, in a programme that covered all the core subjects of Computer Science, from Operating Systems, Networks and Artificial Intelligence, to Computer Graphics, focusing of course on the basics of Mathematics and Physics that any engineering programme requires.  </p>
+        </div>
+      </div>
+    </div>
+    <div id="item2Container" style="display:none; height:45vh;">
+      <div class="col-sm-4 col-md-4 col-xs-4 colEngineering" style="height:100%; padding:0px;">
+        <div id="engineeringImage" class="engImageClass" style="height:100%;">
+          <img class="img-responsive" src="img/FCULLogo.png" style="width: auto;  height: auto;">
+        </div>
+      </div>
+      <div class="col-sm-4 col-md-4 col-xs-4 colEngineeringLinks" style="height:100%; padding:0px;">
+        <div id="linksEngineering" class="engLinkClass">
+          <div id="linksEngineeringWrapper">
+            <a href="https://ciencias.ulisboa.pt/">Faculty of Sciences of the University of Lisbon</a>
+            <a href="https://ciencias.ulisboa.pt/pt/di/">FCUL Informatics Department</a>
+            <a href="mscDiploma.pdf">MSc Diploma</a>
+            <a href="mscthesisabstract.pdf">MSc Thesis Abstract</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-4 col-md-4 col-xs-4 colEngineering"style="height:100%; padding:0px;">
+        <div id="engineeringText" class="engTextClass">
+          <p> I attended the Masters Programme of <b><u>Computer Science</u></b> at the Faculty of Sciences of the University of Lisbon, focusing on the specialization of Information Systems, an area that focuses on the design and development of systems dedicated to the collection, organisation, storage and communication of information. Topics included Database Technologies, Mobile Computing, 3D Animation and Virtual Environments, Web Applications, Project Management, Machine Learning, Multimedia and Artificial Life. </p>
+        </div>
+      </div>
+    </div>
+    <div id="item3Container" style="display:none; height:45vh;">
+      <div class="col-sm-4 col-md-4 col-xs-4 colEngineering" style="height:100%; padding:0px;">
+        <div id="engineeringImage" class="engImageClass" style="height:100%;">
+          <img class="img-responsive" src="img/upclogo.png" style="width: auto;  height:auto;">
+        </div>
+      </div>
+      <div class="col-sm-4 col-md-4 col-xs-4 colEngineeringLinks" style="height:100%; padding:0px;">
+        <div id="linksEngineering" class="engLinkClass">
+          <div id="linksEngineeringWrapper">
+            <a href="http://www.upc.edu">Universitat Politècnica de Catalunya</a>
+            <a href="https://en.wikipedia.org/wiki/Erasmus_Mundus">EU Erasmus Mundus Programme</a>
+          </div>
+          </div>
+      </div>
+      <div class="col-sm-4 col-md-4 col-xs-4 colEngineering"style="height:100%; padding:0px;">
+        <div id="engineeringText" class="engTextClass">
+          <p> I spent one full academic year of my Master's Degree, attending <b><u>Universitat Politècnica de Catalunya</u></b>, in Barcelona, through the European Union's Erasmus Mundus programme, which allows students in Europe to spend a period of their studies in a University abroad. At UPC, I improved my knowledge on Computer Graphics, Artificial Intelligence / Multi-Agent Systems, and Simulation. It was overall an enriching experience that allowed me not only to explore topics that weren't easily accessible to me, but also to experience multiculturality and all the fine experiences of living in a different country. </p>
+        </div>
+      </div>
+    </div>
+    <div id="item4Container" style="display:none; height:45vh;">
+      <div class="col-sm-4 col-md-4 col-xs-4 colEngineering" style="height:100%; padding:0px;">
+        <div id="engineeringImage" class="engImageClass" style="height:100%;">
+          <img class="img-responsive" src="img/marshlogo.png" style="width: auto;  height: auto;"></img>
+        </div>
+      </div>
+      <div class="col-sm-4 col-md-4 col-xs-4 colEngineeringLinks" style="height:100%; padding:0px;">
+        <div id="linksEngineering" class="engLinkClass">
+          <div id="linksEngineeringWrapper">
+            <a href="http://www.mmc.com">Marsh & McLennan Companies</a>
+            <a href="http://portugal.marsh.com">Marsh & McLennan Portugal</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-4 col-md-4 col-xs-4 colEngineering"style="height:100%; padding:0px;">
+        <div id="engineeringText" class="engTextClass">
+          <p> At Marsh I performed tasks related with Information Technologies, giving support to colleagues (help-desk), helping to find solutions for problems using IT and helping maintenance of the data-center. I feel this job gave me a great deal of experience in relating with people, team-work, communication and most of all, where to stand while working at a multinacional corporation. Overhall it was a great experience, having left only to pursue my future carreer in Software Development. </p>
+        </div>
+      </div>
+    </div>
+    <div id="item5Container" style="display:none; height:45vh;">
+      <div class="col-sm-4 col-md-4 col-xs-4 colEngineering" style="height:100%; padding:0px;">
+        <div id="engineeringImage" class="engImageClass" style="height:100%;">
+          <img class="img-responsive" src="img/naadirimg.png" style="width: auto;  height: auto;"></img>
+        </div>
+      </div>
+      <div class="col-sm-4 col-md-4 col-xs-4 colEngineeringLinks" style="height:100%; padding:0px;">
+        <div id="linksEngineering" class="engLinkClass">
+          <div id="linksEngineeringWrapper">
+            <a href="http://naadir.fa.utl.pt/">NAADIR Research Project</a>
+            <a href="https://labmag.ul.pt/">LabMag - Agent Modelling Laboratory</a>
+            <a href="http://fc.ul.pt/">Faculdade de Ciências da Universidade de Lisboa</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-4 col-md-4 col-xs-4 colEngineering"style="height:100%; padding:0px;">
+        <div id="engineeringText" class="engTextClass">
+          <p> As part of a research team for the NAADIR (A New Approach on Architectural Drawings Integrating computer descRiptions) project on behalf of FCT (Fundação para a Ciência e Tecnologia) with the joint effort of FCUL and FAUTL, I developed a prototype visualizer for 3D models, implementing a new perspective paradigm for three-dimensional visualization - the Extended Perspective System - allowing the users to experience the visualization of 3D models in an innovative way. </p>
+        </div>
+      </div>
+    </div>
+    <div id="item6Container" style="display:none; height:45vh;">
+      <div class="col-sm-4 col-md-4 col-xs-4 colEngineering" style="height:100%; padding:0px;">
+        <div id="engineeringImage" class="engImageClass" style="height:100%;">
+          <img class="img-responsive" src="img/panicplanelogo.png" style="width: auto;  height: auto;"></img>
+        </div>
+      </div>
+      <div class="col-sm-4 col-md-4 col-xs-4 colEngineeringLinks" style="height:100%; padding:0px;">
+        <div id="linksEngineering" class="engLinkClass">
+          <div id="linksEngineeringWrapper">
+            <a href="http://www.mmc.com">Panic Plane on Vimeo</a>
+            <a href="http://portugal.marsh.com">Castaway Team Blog</a>
+            <a href="http://portugal.marsh.com">Panic Plane on Facebook</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-4 col-md-4 col-xs-4 colEngineering"style="height:100%; padding:0px;">
+        <div id="engineeringText" class="engTextClass">
+          <p> I was involved in the creation of the iOS video-game 'Panic Plane' as a developer/programmer and as a musician, contributing in both areas. I worked with a multidisciplinary team of friends called 'Castaway Team' in this project and it was an absolutely wonderful experience. The game is no longer available in Apple's AppStore, although it was on sale for the period of one year. </p>
+        </div>
+      </div>
+    </div>
+    <div id="item7Container" style="display:none; height:45vh;">
+      <div class="col-sm-4 col-md-4 col-xs-4 colEngineering" style="height:100%; padding:0px;">
+        <div id="engineeringImage" class="engImageClass" style="height:100%;">
+          <img class="img-responsive" src="img/amadeuslogo.png" style="width: auto; height: auto;">
+        </div>
+      </div>
+      <div class="col-sm-4 col-md-4 col-xs-4 colEngineeringLinks" style="height:100%; padding:0px;">
+        <div id="linksEngineering" class="engLinkClass">
+          <div id="linksEngineeringWrapper">
+            <a href="https://www.amadeus.com/">Amadeus</a>
+            <a href="http://www.amadeus.com/web/amadeus/en_1A-corporate/Airlines/Airline-Systems/Airline-Core-Systems/Financial-Suite/Payment/1400000041738-Categorizable_P-AMAD_CategoryDetailPpal-1319637765587?industrySegment=1259068355670">Amadeus Payment Server</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-4 col-md-4 col-xs-4 colEngineering"style="height:100%; padding:0px;">
+        <div id="engineeringText" class="engTextClass">
+          <p> I worked as a Consultant Software Engineer for Amadeus on behalf of Aubay Consulting, in Sophia-Antipolis, Nice, France. Working on Amadeus Payment Server, a highly available transactional back-end dedicated to payment services. Tasks include software design and implementation, analysis and monitoring, problem tracking and solving. Topics include credit card authorization and capture, alternative methods of payment and fraud screening. I was stream leader of the implementation of the Korean Airlines Loyalty System interface with Amadeus. Expertise on online capture and loyalty systems. Main technologies used: C++, Oracle DB, XML Schemas, UNIX, Python. </p>
+        </div>
+      </div>
+    </div>
+    <div id="item8Container" style="display:none; height:45vh;">
+      <div class="col-sm-4 col-md-4 col-xs-4 colEngineering" style="height:100%; padding:0px;">
+        <div id="engineeringImage" class="engImageClass" style="height:100%;">
+          <img class="img-responsive" src="img/quick.gif" style="width: auto; height: auto;">
+        </div>
+      </div>
+      <div class="col-sm-4 col-md-4 col-xs-4 colEngineeringLinks" style="height:100%; padding:0px;">
+        <div id="linksEngineering" class="engLinkClass">
+          <div id="linksEngineeringWrapper">
+            <a href="http://www.angharadhengyu.xyz">Angharad Hengyu Owen</a>
+            <a href="https://www.facebook.com/wanderingpoem/">A Wandering Poem on Facebook</a>
+            <a href="https://www.indiegogo.com/projects/a-wandering-poem/x/8698534#/">A Wandering Poem on IndieGOGO</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-4 col-md-4 col-xs-4 colEngineering"style="height:100%; padding:0px;">
+        <div id="engineeringText" class="engTextClass">
+          <p> During 8 months of the year of 2015, I left my job in the south of France, and travelled the land route between Greece and Nepal - through Turkey, Georgia, Armenia, Iran, Pakistan and India - mostly relying on Couchsurfing, hitch-hiking and public transport. Throughout this trip, I took the chance to write a travel journal in poetic form, which upon my arrival was used as content for the 'A Wandering Poem' project, a poetry book with an unusual twist, beautifully designed by Angharad Owen, which earned her the award for student of the year at CSVPA, and set to be published at the end of 2016. </p>
+        </div>
+      </div>
+    </div>
+    <div id="item9Container" style="display:block; height:45vh; ">
+      <div class="col-sm-4 col-md-4 col-xs-4 colEngineering" style="height:100%; padding:0px;">
+        <div id="engineeringImage" style="height:100%;" >
+          <img class="img-responsive" src="img/pushlogo.png" style="width: auto; height: auto;"></img>
+        </div>
+      </div>
+      <div class="col-sm-4 col-md-4 col-xs-4 colEngineeringLinks" style="height:100%; padding:0px; ">
+        <div id="linksEngineering" class="engLinkClass">
+            <div id="linksEngineeringWrapper">
+                <a href="http://www.pushvfx.com">PUSH VFX</a>
+                <a href="http://www.pushinteractive.xyz">PUSH Interactive</a>
+            </div>
+          </div>
+
+      </div>
+      <div class="col-sm-4 col-md-4 col-xs-4 colEngineering"style="height:100%; padding:0px; ">
+        <div id="engineeringText" class="engTextClass">
+          <p> Co-founded PUSH Interactive, a tech company venturing deep in the realms of digital interactive experiences, pushing the digital world to new limits. I work as head of technology, developing interactive 3D products (spanning technologies like WebGL and Javascript) and managing the software development team. Most of the work is full-stack development, touching every little detail of the development process.</p>
+        </div>
+      </div>
+    </div>
+    <div id="item10Container" style="display:none; height:45vh;">
+      <div class="col-sm-4 col-md-4 col-xs-4 colEngineering" style="height:100%; padding:0px;">
+        <div id="engineeringImage" class="engImageClass" style="height:100%;">
+          <img class="img-responsive" src="img/volnepallogo.png" style="width: auto; height: auto;">
+        </div>
+      </div>
+      <div class="col-sm-4 col-md-4 col-xs-4 colEngineeringLinks" style="height:100%; padding:0px;">
+        <div id="linksEngineering" class="engLinkClass">
+          <div id="linksEngineeringWrapper">
+            <a href="http://www.volnepal.np.org">VolNepal ONG</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-4 col-md-4 col-xs-4 colEngineering"style="height:100%; padding:0px;">
+        <div id="engineeringText" class="engTextClass">
+          <p> I spent two weeks volunteering at <b> VolNepal </b>, a Nepalese ONG that focuses on disaster relief and education. My functions were to develop a piece of software that integrated with their website in order to display their financial results, and increase transparency for donors. I also helped supervise the re-construction of houses in a village north of Kathmandu (Nuwakot), damaged by the 2015 earthquake. The experience was brilliant, and I had the opportunity to meet goodhearted people while contributing for a great cause, whose results could be seen in action.</p>
+        </div>
+      </div>
+    </div>
+    <div id="item11Container" style="display:none; height:45vh;">
+      <div class="col-sm-4 col-md-4 col-xs-4 colEngineering" style="height:100%; padding:0px;">
+        <div id="engineeringImage" class="engImageClass" style="height:100%;">
+          <img class="img-responsive" src="img/caadfutures.png" style="width: auto; height: auto;">
+        </div>
+      </div>
+      <div class="col-sm-4 col-md-4 col-xs-4 colEngineeringLinks" style="height:100%; padding:0px;">
+        <div id="linksEngineering" class="engLinkClass">
+          <div id="linksEngineeringWrapper">
+            <a href="http://www.caadfutures.org">CAAD Futures Foundation</a>
+            <a href="papercaad.pdf">Paper</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-4 col-md-4 col-xs-4 colEngineering"style="height:100%; padding:0px;">
+        <div id="engineeringText" class="engTextClass">
+          <p> Through my academic work on the <b>NAADIR Project</b>, our team produced some scientifc output, that was later submitted and accepted in a couple of relevant academic gatherings. One of these was CAAD Futures, a Dutch based institution that promotes Computer Aided Architectural Design innovation and research. The NAADIR Project based paper, was accepted for publishing, on the innovative nature of the project and the importance as a paradigm shift in CAAD.</p>
+        </div>
+      </div>
+    </div>
+    <div id="item12Container" style="display:none; height:45vh;">
+      <div class="col-sm-4 col-md-4 col-xs-4 colEngineering" style="height:100%; padding:0px;">
+        <div id="engineeringImage" class="engImageClass" style="height:100%;">
+          <img class="img-responsive" src="img/interacaologo.png" style="width: auto; height: auto;">
+        </div>
+      </div>
+      <div class="col-sm-4 col-md-4 col-xs-4 colEngineeringLinks" style="height:100%; padding:0px;">
+        <div id="linksEngineering" class="engLinkClass">
+          <div id="linksEngineeringWrapper">
+            <a href="http://interacao2013.utad.pt/">Interação (Conferência) </a>
+            <a href="paperinteracao.pdf">Paper</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-4 col-md-4 col-xs-4 colEngineering"style="height:100%; padding:0px;">
+        <div id="engineeringText" class="engTextClass">
+          <p> Through my academic work on the <b>NAADIR Project</b>, our team produced some scientifc output, that was later submitted and accepted in a couple of relevant academic gatherings. One of these was Interação 2013, the most important Portuguese conference on the topics of Interaction. The NAADIR Project based paper, was accepted for publishing, on account of the research done on designing a relevant interface for navigating the novel 3D space that the NAADIR paradigm spawned.</p></div>
+      </div>
+    </div>
+    <div id="item13Container" style="display:none; height:45vh;">
+      <div class="col-sm-4 col-md-4 col-xs-4 colEngineering" style="height:100%; padding:0px;">
+        <div id="engineeringImage" class="engImageClass"  style="height:100%;">
+          <img class="img-responsive" src="img/flosslogo.png" style="width: auto; height: auto;">
+        </div>
+      </div>
+      <div class="col-sm-4 col-md-4 col-xs-4 colEngineeringLinks" style="height:100%; padding:0px;">
+        <div id="linksEngineering" class="engLinkClass">
+          <div id="linksEngineeringWrapper">
+            <a href="https://puredata.info">Pure Data</a>
+            <a href="https://www.arduino.cc">Arduino Microprocessor</a>
+            <a href="https://www.facebook.com/NetaudioLX">NetAudioLX 2012</a>
+            <a href="http://marcodonnarumma.com">Marco Donnaruma</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-4 col-md-4 col-xs-4 colEngineering"style="height:100%; padding:0px;">
+        <div id="engineeringText" class="engTextClass">
+          <p> In the context of the open-source/open-culture festival NetAudio LX 2012, I attended a couple of workshops. The Free-Software workshop focused on an overview of open-source history, and had a crash-course on programming the Arduino, an open-source microprocessor. The Live Media and PD workshop, given by Marco Donnaruma, focused on electronic music composition and live media production using Pure Data. With this knowledge I created a small hack using PD and Arduino, that 'listened' to the ambient sound in a room, and reflected the sound waves on a 3D animated sphere on-screen.</p>
+        </div>
+      </div>
+    </div>
+    <div id="item14Container" style="display:none; height:45vh;">
+      <div class="col-sm-4 col-md-4 col-xs-4 colEngineering" style="height:100%; padding:0px;">
+        <div id="engineeringImage" class="engImageClass" style="height:100%;">
+          <img class="img-responsive" src="img/cpluspluslogo.png" style="width: auto; height: auto;">
+        </div>
+      </div>
+      <div class="col-sm-4 col-md-4 col-xs-4 colEngineeringLinks" style="height:100%; padding:0px;">
+        <div id="linksEngineering" class="engLinkClass">
+          <div id="linksEngineeringWrapper">
+            <a href="http://www.cplusplus.com">C++ Programming Language</a>
+            <a href="http://www.evolutionmm.com">Evolution MM School</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-4 col-md-4 col-xs-4 colEngineering"style="height:100%; padding:0px;">
+        <div id="engineeringText" class="engTextClass">
+          <p> During my stay in the south of France, I attended an advanced C++ Concepts course, which focused on concepts like inheritance, polymorphism, abstract classes, run time type identification,  namespaces, exceptions, templates, the Standard Template Library and design pattenrs. The course was given by Evolution MM school.</p>
+        </div>
+      </div>
+    </div>
+    <div id="item15Container" style="display:none; height:45vh;">
+      <div class="col-sm-4 col-md-4 col-xs-4 colEngineering" style="height:100%; padding:0px;">
+        <div id="engineeringImage" class="engImageClass" style="height:80%;">
+          <img class="img-responsive" src="img/oraclelogo.png" style="width: auto; height: auto;">
+        </div>
+      </div>
+      <div class="col-sm-4 col-md-4 col-xs-4 colEngineeringLinks" style="height:100%; padding:0px;">
+        <div id="linksEngineering" class="engLinkClass">
+          <div id="linksEngineeringWrapper">
+            <a href="https://www.oracle.com/database/index.html">Oracle Database</a>
+            <a href="http://setra-conseil.com">Setra Conseil Training</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-4 col-md-4 col-xs-4 colEngineering"style="height:100%; padding:0px;">
+        <div id="engineeringText" class="engTextClass">
+          <p> During my stay in the south of France, I attended the Oracle Database 11g : Performance Tuning DBA course, which focused on techniques for Oracle database fine tuning, through perfomance methodology, AWR, Oracle Optimizer, SQL query optimization, Pool and Buffer caching, PGA, Automatic Memory Management, Segment Space and I/O performance and tuning. The course was given by Setra Conseil Technique, a certified Oracle trainer. </p>
+        </div>
+      </div>
+    </div>
+    <div id="item16Container" style="display:none; height:45vh;">
+      <div class="col-sm-4 col-md-4 col-xs-4 colEngineering" style="height:100%; padding:0px;">
+        <div id="engineeringImage" class="engImageClass" style="height:100%;">
+          <img class="img-responsive" src="img/python-logo.png" style="width: auto; height: auto;">
+        </div>
+      </div>
+      <div class="col-sm-4 col-md-4 col-xs-4 colEngineeringLinks" style="height:100%; padding:0px;">
+        <div id="linksEngineering" class="engLinkClass">
+          <div id="linksEngineeringWrapper">
+            <a href="https://www.python.org/">Python Programming Language</a>
+            <a href="https://www.logilab.fr">Logilab Training</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-4 col-md-4 col-xs-4 colEngineering"style="height:100%; padding:0px;">
+        <div id="engineeringText" class="engTextClass">
+          <p> During my stay in the south of France, I attended an Advanced Python course, which comprehended advanced structures - decorators, generators, advanced models, Python communication - sockets, distributed objects, networks, Parallel Computation and Python Code distribution and deployment. The course was given by LogiLab Paris.  </p>
+        </div>
+      </div>
+    </div>
+    <div id="item17Container" style="display:none; height:45vh;">
+      <div class="col-sm-4 col-md-4 col-xs-4 colEngineering" style="height:100%; padding:0px;">
+        <div id="engineeringImage" class="engImageClass" style="height:100%;">
+          <img class="img-responsive" src="img/chiado.png" style="width: auto; height: auto;">
+        </div>
+      </div>
+      <div class="col-sm-4 col-md-4 col-xs-4 colEngineeringLinks" style="height:100%; padding:0px;">
+        <div id="linksEngineering" class="engLinkClass">
+          <div id="linksEngineeringWrapper">
+            <a href="https://www.chiadoeditora.com/">Chiado Editora</a>
+            <a href="https://www.chiadoeditora.com/livraria/entre-o-sono-e-o-sonho-antologia-de-poesia-contemporanea-vol-vii">Entre o Sono e o Sonho - Vol. VII</a>
+            <a href="certificadoAutor.pdf">Certificate</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-4 col-md-4 col-xs-4 colEngineering"style="height:100%; padding:0px;">
+        <div id="engineeringText" class="engTextClass">
+          <p> One of my poems was included in the 7th anthology of contemporary Portuguese poetry 'Entre o Sono e o Sonho - Vol.VII', published by Chiado Editora, and anthologized by Gonçalo Nuno Martins. The poem 'Opiarium' can be read in the Poetry section of this website, and describes a dreamlike hallucinatory reverie on the memories of a long lost love. <i> '... the kemençe and the saz that play outside, seem to dissolve to each arabesque scale, mystical melodies of fallen empires.' </i></p>
+        </div>
+      </div>
+    </div>
+    <div id="item18Container" style="display:none; height:45vh;">
+      <div class="col-sm-4 col-md-4 col-xs-4 colEngineering" style="height:100%; padding:0px;">
+        <div id="engineeringImage" class="engImageClass" style="height:100%;">
+          <img class="img-responsive" src="img/pg.png" style="width: auto; height: auto;">
+        </div>
+      </div>
+      <div class="col-sm-4 col-md-4 col-xs-4 colEngineeringLinks" style="height:100%; padding:0px;">
+        <div id="linksEngineering" class="engLinkClass">
+          <div id="linksEngineeringWrapper">
+            <a href="https://www.plataformaglobal.org/">Plataforma Global</a>
+            <a href="https://www.play4poverty.org">Play 4 Poverty</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-4 col-md-4 col-xs-4 colEngineering"style="height:100%; padding:0px;">
+        <div id="engineeringText" class="engTextClass">
+          <p> I joined Plataforma Global - a learning organization and think-tank focused on favorable solutions to pomote human development, acting in subjects such as poverty relief, hunger and lack of access to health and jobs - as a chief senior engineer and technology advisor, working with PG in multiple projects. Play4Poverty is the most noteworthy initiative of PG, as an attempt to gather a significant group of artists to the cause of poverty relief and its disclosure.</p>
+        </div>
+      </div>
+    </div>
+    <div id="item19Container" style="display:none; height:45vh;">
+      <div class="col-sm-4 col-md-4 col-xs-4 colEngineering" style="height:100%; padding:0px;">
+        <div id="engineeringImage" class="engImageClass" style="height:100%;">
+          <img class="img-responsive" src="img/pix.png" style="width: auto; height: auto;">
+        </div>
+      </div>
+      <div class="col-sm-4 col-md-4 col-xs-4 colEngineeringLinks" style="height:100%; padding:0px;">
+        <div id="linksEngineering" class="engLinkClass">
+          <div id="linksEngineeringWrapper">
+            <a href="http://www.pix-associates.com/">Pix Associates</a>
+            <a href="http://merlin-agency.com/"> Merlin Agency </a>
+            <a href="http://www.pix-associates.com/2016/10/digital-21">Conference Creativity Rocks</a>
+            <a href="creativityRocksFlyer.pdf">Flyer</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-4 col-md-4 col-xs-4 colEngineering"style="height:100%; padding:0px;">
+        <div id="engineeringText" class="engTextClass">
+          <p> I was invited by Pix Associates / Merlin Agency to be a speaker at the first edition of their conference 'Creativity Rocks' - a conference that gathered entrepeneurs with different backgrounds to discuss around the definition of creativity and its value for their business. I spoke on the topic 'Creativity as a comparative advantage' and participated in the round table. The conference was held at the Grimaldi Forum Monaco. </p>
+        </div>
+      </div>
+    </div>
+    <div id="item20Container" style="display:none; height:45vh;">
+      <div class="col-sm-4 col-md-4 col-xs-4 colEngineering" style="height:100%; padding:0px;">
+        <div id="engineeringImage" class="engImageClass" style="height:100%;">
+          <img class="img-responsive" src="img/hippoLogo.jpg" style="width: auto; height: auto;">
+        </div>
+      </div>
+      <div class="col-sm-4 col-md-4 col-xs-4 colEngineeringLinks" style="height:100%; padding:0px;">
+        <div id="linksEngineering" class="engLinkClass">
+          <div id="linksEngineeringWrapper">
+            <a href="http://globalgamejam.org/faq">Global Game Jam</a>
+            <a href="http://globalgamejam.org/2017/games/hipponaut">Hipponaut @ GGJ17 </a>
+            <a href="https://pushvfx.com/projects/58c1a3eb7fe73c08b426e1aa">Follow Hipponaut</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-4 col-md-4 col-xs-4 colEngineering"style="height:100%; padding:0px;">
+        <div id="engineeringText" class="engTextClass">
+          <p> A video-game that spawned from Global Game Jam 2017, Hipponaut is a cute space shooter, where Hipponaut - a Hippo astronaut - is on a quest to save the galaxy. The core of this video-game was developed during GGJ’17, a 48h global jam, where participants are expected to produce a video-game in that short span of time. PUSH participated with a team, and the result was Hipponaut, a video-game that we are proudly developing into a product. Hipponaut was done with the Unity game engine, and represents a collaborative effort of artists and engineers.</p>
+        </div>
+      </div>
+    </div>
+    <div id="item21Container" style="display:none; height:45vh;">
+      <div class="col-sm-4 col-md-4 col-xs-4 colEngineering" style="height:100%; padding:0px;">
+        <div id="engineeringImage" class="engImageClass" style="height:100%;">
+          <img class="img-responsive" src="img/artec27logo.png" style="width: auto; height: auto;">
+        </div>
+      </div>
+      <div class="col-sm-4 col-md-4 col-xs-4 colEngineeringLinks" style="height:100%; padding:0px;">
+        <div id="linksEngineering" class="engLinkClass">
+          <div id="linksEngineeringWrapper">
+            <a href="http://www.artec.ipt.pt/">Artec 27</a>
+            <a href="https://www.youtube.com/watch?v=goFmivoMPns">Our Talk at Artec 27 </a>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-4 col-md-4 col-xs-4 colEngineering"style="height:100%; padding:0px;">
+        <div id="engineeringText" class="engTextClass">
+          <p> PUSH was invited to speak at Artec 27 - a Portuguese conference organised by the Polytechnic Institute of Tomar created to start a dialogue between visual arts professionals and students. We were invited to talk about PUSH's path, our past, our present and our future. </p>
+        </div>
+      </div>
+    </div>
+    <div id="item22Container" style="display:none; height:45vh;">
+      <div class="col-sm-4 col-md-4 col-xs-4 colEngineering" style="height:100%; padding:0px;">
+        <div id="engineeringImage" class="engImageClass" style="height:100%;">
+          <img class="img-responsive" src="img/awp_launch.png" style="width: auto; height: auto;">
+        </div>
+      </div>
+      <div class="col-sm-4 col-md-4 col-xs-4 colEngineeringLinks" style="height:100%; padding:0px;">
+        <div id="linksEngineering" class="engLinkClass">
+          <div id="linksEngineeringWrapper">
+            <a href="http://www.wanderingpoem.com/">Official Website</a>
+            <a href="https://www.facebook.com/wanderingpoem/">Facebook Page</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-4 col-md-4 col-xs-4 colEngineering"style="height:100%; padding:0px;">
+        <div id="engineeringText" class="engTextClass">
+          <p>‘Um Poema Errante / A Wandering Poem’ is the printed collaboration between travelling poet Christian Marques and visual interpreter Angharad Hengyu Owen.
+
+            A literary project unlike anything that has ever been published, it embodies a bi-disciplinary re-exploration of an eight-month journey from Europe, across the Middle East, to Asia: Undertaken by the author himself, crossing seven countries, covering roughly 11500 km by land, unearthing one poem a day.
+
+            The result is a bilingual (English and Portuguese) collection of emotional imprints, where each poetic free-verse works hand in hand with its unique visualisation on paper, offering a multi-layered and inner-directed reading experience, and ultimately a voyage of sorts through printed words.
+
+            </p>
+        </div>
+      </div>
+    </div>
+    </div>
+  </div>
+</div>
+</div>
+<div class="container" id="containerFooter">
+  <div id="footerRight" class="footerEngineering">
+    <footer class="footer">
+      <div style="position:relative;">
+        <p class="text-muted" style="margin-bottom:0px;">designed and developed by christian marques &#8226; 2016 &copy; all rights reserved &#8226; illustrations from <a href="http://thegraphicsfairy.com/">The Graphic Fairy</a> &#8226; using <a href="http://getbootstrap.com/">Bootstrap</a>, <a href="https://jquery.com/">JQuery</a>, <a href="http://kenwheeler.github.io/slick/">Slick</a>, <a href="http://kenwheeler.github.io/slick/">Formspree</a>, <a href="https://github.com/lucaong/jQCloud">JQCloud</a> and <a href="http://github.hubspot.com/pace/docs/welcome/">Pace</a></p>
+      </div>
+      <div id="languageChoose">
+        <a href="../en/engineering.html">en</a> / <a href="../pt/engineering.html">pt</a>
+      </div>
+    </footer>
+  </div>
+</div>
+</body>
+<script src="js/linkInteraction.js"></script>
+</html>

@@ -1,0 +1,546 @@
+body
+{
+  background-image: url("../img/bg.jpg");
+  background-repeat: repeat;
+  overflow-x:hidden;
+  overflow-y:auto;
+  margin-bottom: 15px;
+  font-family: 'Merriweather', serif;
+  font-size:small;
+  line-height:20px;
+}
+
+body p
+{
+  font-family: 'Merriweather', serif;
+  font-size:small;
+  line-height:20px;
+}
+
+#navigation
+{
+  margin:0px;
+}
+
+.activeNavLink
+{
+  color:#FF1D8E !important;
+}
+
+.navbar-nav>li>a .activeNavLink
+{
+  color:#FF1D8E !important;
+}
+
+.container
+{
+  padding-left:100px;
+  padding-right:100px;
+}
+
+#containerNav
+{
+  width:1024px;
+  height:10vh;
+  padding:0px;
+}
+
+#containerMain
+{
+  height:78vh;
+  width:1024px;
+  padding:0px;
+}
+
+#containerFooter
+{
+  width:1024px;
+  height:8vh;
+  padding:0px;
+}
+
+#indexColumn1
+{
+  height:90%;
+  display:block;
+}
+
+#indexColumn2
+{
+  display:block;
+  height:90%;
+}
+
+#introText
+{
+  margin:0px;
+  font-family: 'Merriweather', serif;
+  font-size:small;
+  width:210px;
+  border-bottom:2px solid black;
+  text-align:justify;
+  padding-top:20px;
+  padding-bottom:20px;
+  line-height:20px;
+  text-align-last: justify;
+}
+
+#introText u
+{
+  font-weight:500;
+}
+
+#introText a
+{
+  color:hotpink;
+}
+
+#introText a:hover
+{
+  color:#FF1D8E;
+}
+
+#introText p
+{
+  text-align:justify;
+}
+
+#mainRow
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height:80vh;
+  margin:0px;
+}
+
+#indexImage
+{
+  max-width:90vw;
+  margin-right:170px;
+  float:right;
+  position:absolute;
+  top: 50%; left: 12.5%;
+  transform: translate(-50%,-50%);
+}
+
+#title
+{
+  margin:0px;
+  font-family: 'Merriweather', serif;
+  font-size:115%;
+  width:210px;
+  border-bottom:2px solid black;
+  text-align:center;
+}
+
+#footerLeft
+{
+  padding-top:5px;
+  margin:0px;
+  width:220px;
+}
+
+#footerLeft ul
+{
+  padding: 0px;
+}
+
+#footerLeft ul li
+{
+  display: inline-block;
+  padding:3.4px;
+  padding-bottom:0px;
+}
+
+#footerRight
+{
+  padding:0px;
+}
+
+.footer {
+  font-family: 'Merriweather', serif;
+  font-size:x-small;
+  position:relative;
+  width: 100%;
+  top:6vh;
+  text-align:left;
+  /* Set the fixed height of the footer here */
+}
+
+.footer p
+{
+  color:black;
+  font-size:x-small;
+}
+
+.footer a
+{
+  color:hotpink;
+  font-size:x-small;
+}
+
+.footer a:hover
+{
+  color:black;
+}
+.footer a:visited
+{
+  color:hotpink;
+}
+
+
+#leftContainer
+{
+  width:50%;
+  margin-top:auto;
+  position:absolute;
+  top: 50%; left: 25%;
+  transform: translate(-50%,-50%);
+}
+
+.quote
+{
+  font-size:12px;
+  display:none;
+  font-family: 'Merriweather',
+  serif;
+  right:0px;
+  position:absolute;
+
+}
+
+#languageChoose
+{
+  position:absolute;
+  bottom:0px;
+  right:0px;
+}
+
+#engineeringText
+{
+  font-family: 'Merriweather',serif;
+  position:absolute;
+  text-align:justify;
+  float:right;
+  display: flex;
+  align-items: center;
+  height: 100%;
+  width:100%;
+  padding:0px;
+}
+
+#engineeringImage
+{
+  position: absolute;
+  text-align:center;
+  vertical-align: middle;
+  display: inline-block;
+  height:100%;
+  display: flex;
+  align-items: center;
+  width:100%;
+  padding:0px;
+}
+
+#engineeringImage img
+{
+  height: 100%;
+  width:auto;
+  display: block;
+  margin: auto;
+  padding:0px;
+}
+
+#linksEngineering
+{
+  text-align:center;
+  color:hotpink;
+  height:100%;
+  width:100%;
+  padding:0px;
+  display:inline-block;
+
+}
+
+#linksEngineeringWrapper
+{
+  margin-top:20vh;
+}
+
+#linksEngineering a
+{
+  font-family:'Merriweather',serif;
+  color:hotpink;
+  display:block;
+  font-family: 'Merriweather', serif;
+}
+
+#linksEngineering a:hover
+{
+  color:black;
+}
+
+#linksEngineering a:visited
+{
+  color:hotpink;
+}
+
+#visualization
+{
+  position:relative;
+  clear:both;
+  margin-top:30px;
+}
+
+#visInstructionsLeft
+{
+  font-family:'Merriweather',serif;
+  font-size:12px;
+  font-weight:bold;
+  float:left;
+}
+
+#visInstructionsRight
+{
+  margin-top:10px;
+  font-family:'Merriweather',serif;
+  font-size:x-small;
+  font-weight:bold;
+  float:right;
+  color:black;
+}
+
+#photoContainer
+{
+  border-radius:25px;
+  height:85vh;
+}
+
+#photoText
+{
+  font-size:9px;
+  font-family: 'Merriweather', serif;
+  margin-left:170px;
+}
+
+#myCarousel
+{
+  margin-top:25px;
+  position:relative;
+  float:none;
+}
+
+#custom-bootstrap-menu.navbar-default {
+    width:100%;
+    position:relative;
+    font-size: 14px;
+    background-color: rgba(248, 248, 248, 0);
+    font-family: 'Merriweather', serif;
+    padding-right:0px;
+}
+#custom-bootstrap-menu.navbar-default .navbar-nav>li>a {
+    color: rgba(5, 5, 5, 1);
+    background-color: rgba(248, 248, 248, 0);
+    text-align:right;
+    padding-right:0px;
+    padding-left:30px;
+}
+#custom-bootstrap-menu.navbar-default .navbar-nav>li>a:hover,
+#custom-bootstrap-menu.navbar-default .navbar-nav>li>a:focus {
+    color: rgba(255, 105, 180, 1);
+    background-color: rgba(248, 248, 248, 0);
+}
+#custom-bootstrap-menu.navbar-default .navbar-nav>.active>a,
+#custom-bootstrap-menu.navbar-default .navbar-nav>.active>a:hover,
+#custom-bootstrap-menu.navbar-default .navbar-nav>.active>a:focus {
+    color: rgba(255, 105, 180, 1);
+    background-color: rgba(231, 231, 231, 0);
+}
+#custom-bootstrap-menu.navbar-default .navbar-toggle {
+    border-color: rgba(248, 248, 248, 0);
+}
+#custom-bootstrap-menu.navbar-default .navbar-toggle:hover,
+#custom-bootstrap-menu.navbar-default .navbar-toggle:focus {
+    background-color: #ddd;
+}
+#custom-bootstrap-menu.navbar-default .navbar-toggle .icon-bar {
+    background-color: #888;
+}
+#custom-bootstrap-menu.navbar-default .navbar-toggle:hover .icon-bar,
+#custom-bootstrap-menu.navbar-default .navbar-toggle:focus .icon-bar {
+    background-color: #888;
+}
+
+/* Required to hold the caption, or any closest parent selector to  .slide__caption */
+.slide {
+  position: relative;
+}
+
+.slide__caption {
+  background-color:rgba(0,0,0,0.5);
+  bottom: 0;
+  color:white;
+  font-family:"Merriweather", serif;
+  font-weight:600;
+  min-height: 40px;
+  text-align:center;
+  left: 15%;
+  position: absolute;
+  width: 70%;
+  z-index: 2;
+}
+
+.image
+{
+  text-align:center;
+}
+
+.image img
+{
+  margin:auto;
+  width:70%;
+}
+
+.musicMenu
+{
+  font-family: 'Merriweather', serif;
+  list-style-type:none;
+  display:inline;
+  width:100%;
+  padding-left:0px;
+}
+
+.musicMenu li
+{
+  display:inline-block;
+}
+
+.musicMenu a
+{
+  padding-right:4px;
+  padding-left:4px;
+  color:black;
+}
+
+.musicMenu a:hover
+{
+  color:hotpink;
+}
+
+.poetryMenu
+{
+  font-family: 'Merriweather', serif;
+  list-style-type:none;
+  display:inline;
+  width:100%;
+  padding-left:0px;
+}
+
+.poetryMenu li
+{
+  display:inline-block;
+}
+
+.poetryMenu a
+{
+  padding-right:12px;
+  padding-left:12px;
+  color:black;
+}
+
+.poetryMenu a:hover
+{
+  color:hotpink;
+}
+
+#musicText
+{
+  font-family: 'Merriweather', serif;
+  font-size:12px;
+  line-height:20px;
+}
+
+#musicText a
+{
+  color:hotpink;
+}
+
+#musicLinks
+{
+  font-family: 'Merriweather', serif;
+  font-size:12px;
+  line-height:20px;
+}
+
+#musicLinks a
+{
+  color:hotpink;
+}
+
+#poemText
+{
+  font-family: 'Merriweather', serif;
+  font-size:12px;
+  line-height:20px;
+}
+
+#poemText h1
+{
+  font-size:24px;
+}
+
+#poemText p
+{
+  line-height: 10px;
+  font-size:10px;
+}
+
+#poemSubText
+{
+  padding-left:25px;
+}
+
+#cloudInstructions
+{
+  font-size:9px;
+  font-family: 'Merriweather', serif;
+  margin-right:15px;
+}
+
+.shadow
+{
+  -webkit-box-shadow: 10px 1px 36px -12px rgba(0,0,0,0.75);
+   -moz-box-shadow: 10px 1px 36px -12px rgba(0,0,0,0.75);
+   box-shadow: 10px 1px 36px -12px rgba(0,0,0,0.75);
+   padding-bottom:20px;
+}
+
+#contactSubmitButton
+{
+  padding-top:3vh;
+}
+
+#contactContainer
+{
+  height:90vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#musicRow
+{
+  height:auto;
+  width:100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin:0px;
+  margin-top:10px;
+}
+
+#cloudInstructionsDiv
+{
+  float:right;
+}
