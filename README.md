@@ -6,4 +6,4 @@ This repository contains the code for the previous (old) iteration of www.christ
 This simple page was developed in HTML/CSS/Javascript. 
 
 ## Demo
-* [Website](http://108.61.178.134/oldportfolio) - Visit the page here
+* [Website](http://108.61.178.134/oldportfolio/en) - Visit the page here
